@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Nunito-Italic;
+    src: url(../fonts/Nunito-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Nunito-Variable;
+    src: url(../fonts/Nunito-VariableFont_wght.ttf);
+}
+
+.font-italic{
+    font-family: Nunito-Italic !important;
+}
+
+.font-variable{
+    font-family: Nunito-Variable !important;
+}
+
+.text-title{
+    font-size: 2rem;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.blue{
+    color: #012970;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #012970;
+}
+
+.icon{
+    height: 40px;
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
+
+.error-404 h1 {
+    font-size: 180px;
+    font-weight: 700;
+    color: #4154f1;
+    margin-bottom: 0;
+    line-height: 150px;
+}
+
+.error-404 h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #012970;
+    margin-bottom: 30px;
+}
+
+.error-404 .btn {
+    background: #51678f;
+    color: #fff;
+    padding: 8px 30px;
+}
+
+.error-404 img {
+    max-width: 50%;
+}
+
+.error-404 .btn:hover {
+    background: #3e4f6f;
+    color: white;
+}
+
+
+.nav-pills .nav-link {
+    color: #6c757d;
+    background: none;
+    border: 0;
+    border-radius: var(--bs-nav-pills-border-radius);
+}
+
+div#v-pills-tab{
+    height: 74vh;
+    background: white; 
+    overflow: auto;
+}
+
+a#v-pills-profile-tab:last-child {
+    border-bottom: none !important;
+}
+
+html{
+    user-select: none;
+}
